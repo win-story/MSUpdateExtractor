@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{C84CBB83-8D55-4491-AD7D-59E33C40E02F}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\common"><UniqueIdentifier>{A34FB3E7-2A36-49D3-9324-3E51F5C371DD}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\archive"><UniqueIdentifier>{20BAA03C-0CC8-4CA0-A0CE-3BF733CE304E}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\archive\mspack"><UniqueIdentifier>{F2BC87D5-E03B-4A0D-B0CF-25D35D5083E3}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\psf"><UniqueIdentifier>{6A5699FB-A464-4F57-91EF-C0F0F934A102}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\packages"><UniqueIdentifier>{EB71C4E2-65D2-4B4E-A24E-8486DCD27F75}</UniqueIdentifier></Filter>
+    <Filter Include="libmspack"><UniqueIdentifier>{4E3478D8-D9BB-44BB-8915-4B862AA82319}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{425B5EC4-A3ED-4DA9-8F9D-FB1F9588F261}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MSUpdateExtractor.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\common\Console.cpp"><Filter>Source Files\common</Filter></ClCompile>
+    <ClCompile Include="src\common\FileUtil.cpp"><Filter>Source Files\common</Filter></ClCompile>
+    <ClCompile Include="src\archive\CabArchiveExtractor.cpp"><Filter>Source Files\archive</Filter></ClCompile>
+    <ClCompile Include="src\archive\mspack\MspackCabDecompressor.cpp"><Filter>Source Files\archive\mspack</Filter></ClCompile>
+    <ClCompile Include="src\archive\WimArchiveExtractor.cpp"><Filter>Source Files\archive</Filter></ClCompile>
+    <ClCompile Include="src\psf\PsfExtractor.cpp"><Filter>Source Files\psf</Filter></ClCompile>
+    <ClCompile Include="src\packages\PackageExtractor.cpp"><Filter>Source Files\packages</Filter></ClCompile>
+    <ClCompile Include="cab\cabd.cpp"><Filter>libmspack</Filter></ClCompile>
+    <ClCompile Include="cab\lzxd.cpp"><Filter>libmspack</Filter></ClCompile>
+    <ClCompile Include="cab\mszipd.cpp"><Filter>libmspack</Filter></ClCompile>
+    <ClCompile Include="cab\qtmd.cpp"><Filter>libmspack</Filter></ClCompile>
+    <ClCompile Include="cab\system.cpp"><Filter>libmspack</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\Console.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\common\FileUtil.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\archive\ArchiveExtractor.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\archive\CabArchiveExtractor.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\archive\mspack\MspackCabDecompressor.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\archive\WimArchiveExtractor.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\psf\PsfExtractor.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\packages\PackageExtractor.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="cab\cab.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\mspack.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\system.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\unistd.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\readhuff.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\readbits.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\macros.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\qtm.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\mszip.h"><Filter>libmspack</Filter></ClInclude>
+    <ClInclude Include="cab\lzx.h"><Filter>libmspack</Filter></ClInclude>
+  </ItemGroup>
+</Project>
